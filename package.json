@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "knex": "knex"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +16,8 @@
     "express-handlebars": "^3.0.0",
     "knex": "^0.11.10",
     "sqlite3": "^3.1.4"
+  },
+  "devDependencies": {
+    "body-parser": "^1.15.2"
   }
 }
