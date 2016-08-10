@@ -1,0 +1,46 @@
+.header {
+  background-color: darkblue;
+  color: white;
+  height: 60px;
+  text-align: center;
+}
+
+.top {
+  background-color: blue;
+  height: 45px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.logo-bar {
+  background-color: green;
+  height: 190px;
+}
+
+.business {
+  margin: 0 35px
+}
+
+.description-bar {
+  background-color: magenta;
+  height: 130px;
+  padding-top: 50px;
+}
+
+.categories {
+  background-color: grey;
+  height: 45px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.tweet {
+  background-color: green;
+  height: 170px;
+}
+
+.action-buttons {
+  background-color: yellow;
+  height: 40px;
+  margin-top: 130px;
+}
