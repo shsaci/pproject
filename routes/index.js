@@ -1,6 +1,6 @@
 var express = require('express')
-// var development = require('../knexfile').development
-// var knex = require('knex')(development)
+var development = require('../knexfile').development
+var knex = require('knex')(development)
 
 module.exports = {
   get: get
@@ -14,5 +14,10 @@ const testObj = {
 }
 
 function get (req, res) {
-  res.render('index', testObj)
+  knex('entity')
+  .select()
+  .then(function (users){
+  console.log(users[0]);
+  res.render('index', {users:users[0]})
+  })
 }
